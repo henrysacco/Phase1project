@@ -17,45 +17,45 @@ body {
 html {
     font-size: 10px;
 }
- h1 {
+h1 {
     font-size: 4rem;
     margin-bottom: 0;
 }
-  h2 {
+h2 {
     font-size: 3rem;
 }
- @media (max-width: 460px) {
+@media (max-width: 460px) {
     h1 {
       font-size: 3rem;
       line-height: 1.2;
     }
 }
- a {
+a {
     color: #477ca7;
 }
- a:visited {
+a:visited {
     color: #74638f;
 }
- @media (max-width: 460px) {
+@media (max-width: 460px) {
     #main {
       margin: 0;
     }
 }
- img {
+img {
     max-width: 100%;
     display: block;
     height: auto;
     margin: 0 auto;
 }
- #img-div {
+#img-div {
     background: white;
     padding: 10px;
     margin: 0;
 }
- #img-caption {
-    margin: 15px 0 5px 0;
+#img-caption {
+    margin: 10px 0 5px 0;
 }
- @media (max-width: 460px) {
+@media (max-width: 600px) {
     #img-caption {
       font-size: 1.4rem;
     }
@@ -67,7 +67,7 @@ ul {
     line-height: 1.6;
 }
 li {
-    margin: 16px 0;
+    margin: 1px 0;
 }
 blockquote {
     font-style: italic;
